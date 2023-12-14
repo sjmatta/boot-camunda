@@ -1,11 +1,11 @@
 repo_name: sjmatta/boot-camunda
-report_id: b08c4b8c5451fe5b6508f6c55a0bfa38
+report_id: 2b8e5a44aa86d82a676ab2f219f0ee64
 repo_type: Public
-timestamp: '2023-11-09T16:14:40+00:00'
-requested_by: renovate[bot]
+timestamp: '2023-12-14T09:37:10+00:00'
+requested_by: stacksharebot
 provider: github
 branch: main
-detected_tools_count: 6
+detected_tools_count: 11
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -71,5 +71,64 @@ tools:
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
   detection_source: src/main/resources/application.properties
+  last_updated_by: Stephen Matta
+  last_updated_on: 2023-10-19 20:12:58.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2022-03-22 17:39:05.000000000 Z
+- name: com.sun.xml.bind:jaxb-impl
+  description: JAXB
+  version: 4.0.4
+  license: CDDL-1.1,CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/sjmatta/boot-camunda/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2022-03-22 17:39:05.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2023-10-19 20:12:58.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Stephen Matta
+  last_updated_on: 2023-10-19 20:12:58.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
   last_updated_by: Stephen Matta
   last_updated_on: 2023-10-19 20:12:58.000000000 Z
