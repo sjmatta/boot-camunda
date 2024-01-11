@@ -2,8 +2,8 @@ repo_name: sjmatta/boot-camunda
 report_id: b08c4b8c5451fe5b6508f6c55a0bfa38
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:20:27+00:00'
-requested_by: stacksharebot
+timestamp: '2024-01-11T12:22:51+00:00'
+requested_by: renovate[bot]
 provider: github
 branch: main
 detected_tools_count: 11
@@ -66,7 +66,7 @@ tools:
   detection_source_url: https://github.com/sjmatta/boot-camunda/blob/main/.github/workflows/maven.yml
   detection_source: ".github/workflows/maven.yml"
   last_updated_by: renovate[bot]
-  last_updated_on: 2023-10-19 10:37:47.000000000 Z
+  last_updated_on: 2023-11-29 16:52:14.000000000 Z
 - name: Apache Camel
   description: A versatile open source integration framework
   website_url: https://camel.apache.org/
